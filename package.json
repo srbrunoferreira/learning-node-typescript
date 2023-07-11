@@ -12,6 +12,7 @@
     "style:check": "prettier --check 'src/**/*.ts' 'test/**/*.ts'",
     "style:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
     "test:unit": "jest",
+    "test:unitw": "jest --watch",
     "test:functional": "jest --projects ./test --runInBand"
   },
   "repository": {
